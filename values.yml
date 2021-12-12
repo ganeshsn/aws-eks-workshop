@@ -11,6 +11,6 @@ AWS:
   eks: eks_integration
   region: us-west-2
 app:
-  dockerImageName: partnership.jfrog.io/workshop-docker/eks-workshop-app #change to your servername
+  dockerImageName: workshopdx.jfrog.io/workshop-docker/eks-workshop-app #change to your servername
   dockerFileLocation: workshop-app
   buildName: eks-workshop-app
