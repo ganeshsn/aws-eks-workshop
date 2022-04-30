@@ -13,7 +13,7 @@ COPY . .
 
 RUN npm run build --prod
 
-FROM nginx:1.15.8-alpine
+FROM nginx:1-alpine
 
 RUN apk update
 RUN apk add openssl
